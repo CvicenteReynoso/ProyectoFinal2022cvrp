@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url(../images/fon3.jpg);
+    background-image: url(../images/fon1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,6 +115,17 @@ main{
     border: none;
     font-size: 16px;
     background: #430070;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.contenedor__login-register form button:hover{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 16px;
+    background: #750abd;
     color: #ffffff;
     cursor: pointer;
     outline: none;
