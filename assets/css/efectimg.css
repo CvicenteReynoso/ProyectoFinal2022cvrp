@@ -16,7 +16,7 @@ cursor: pointer;
 width: 100%;
 overflow: hidden;
 border-radius: 6px;
-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.555); 
 }
 .ofertas .row .col-6 figure img{
 width: 100%;
