@@ -27,26 +27,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 /* The Close Button */
-.close {
+.closegene {
   color: #868686;
   font-size: 35px;
   font-weight: bold;
 }
-.close2 {
-  color: #8d8d8d;
-  font-size: 35px;
-  font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
+
+.closegene:hover,
+.closegene:focus {
   color: rgb(255, 107, 107);
-  text-decoration: none;
-  cursor: pointer;
-}
-.close2:hover,
-.close2:focus {
-  color: rgb(255, 111, 111);
   text-decoration: none;
   cursor: pointer;
 }
