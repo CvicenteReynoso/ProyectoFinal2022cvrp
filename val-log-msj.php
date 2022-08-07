@@ -6,7 +6,7 @@ $num2=$_POST['contra'];
 if ($num1 == "admin" && $num2=="admin") {
     echo '<script lenguage="javascript">';
     echo 'alert("¡ BIENVENIDO :) !")
-    window.location = "mensajes.html";
+    window.location = "mensajes.php";
     </script>';
 } else {
     echo '<script lenguage="javascript">';

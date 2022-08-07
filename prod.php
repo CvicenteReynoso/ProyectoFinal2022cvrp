@@ -29,7 +29,7 @@
             </a>
             </td>
             <td width="33.33%">
-              <a href="index.html" style="text-decoration: none; color: aliceblue;">
+              <a href="contactenos.php" style="text-decoration: none; color: aliceblue;">
                   <div width="100%" height="100%" style="background-color: #00D7FF;">
                     <h1>Contactenos</h1>
                   </div>

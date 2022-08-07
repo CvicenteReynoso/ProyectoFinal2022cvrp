@@ -1,3 +1,23 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['usuar'])){
+
+
+  echo '<script lenguage="javascript">';
+    echo 'alert("¡ Porfavor primero debes iniciar sesion :( !")
+    window.location = "index.php";
+    </script>';
+  session_destroy();
+  die();
+}
+
+
+
+?>
+
+
 <!doctype html>
 <html lang="es">
   <head>
