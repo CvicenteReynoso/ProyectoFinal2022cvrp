@@ -1,3 +1,24 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['usuar'])){
+
+
+  echo '<script lenguage="javascript">';
+    echo 'alert("¡ Porfavor primero debes iniciar sesion !")
+    window.location = "index.php";
+    </script>';
+  session_destroy();
+  die();
+}
+
+
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -70,6 +91,28 @@
       </div>
 
       <br>
+
+
+      <table width="100%">
+    <tr align="right">
+        <td width="30%">
+
+        </td>
+        <td width="52%">
+            
+        </td>
+        <td width="15%">
+        
+        <a href="cer_se.php">
+          <button type="button" class="btn btn-danger">Cerrar Sesion</button>
+        </a>
+        </td>
+        <td width="3%%">
+            
+        </td>
+    </tr>
+</table>
+
       <br>
 
       <div style="background-color: #0096FF; color: rgb(255, 255, 255);" align="center">
@@ -91,6 +134,8 @@
           </div>
         </div>
       </div>
+
+      
 
 
 

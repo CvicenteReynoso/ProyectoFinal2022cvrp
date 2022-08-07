@@ -1,3 +1,25 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['usuar'])){
+
+
+  echo '<script lenguage="javascript">';
+    echo 'alert("¡ Porfavor primero debes iniciar sesion !")
+    window.location = "index.php";
+    </script>';
+  session_destroy();
+  die();
+}
+
+
+
+?>
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -90,10 +112,10 @@
      while($row=mysqli_fetch_array($resultados)){ ?>
      
        <tr>
-            <td style="color: rgb(153, 253, 161); font-size: 30px;"><?php echo $row['nombre']?> </td>
-            <td style="color: rgb(153, 253, 161); font-size: 30px;"><?php echo $row['telefono']?> </td>
-            <td style="color: rgb(153, 253, 161); font-size: 30px; "><?php echo $row['correo']?> </td>
-            <td style="color: rgb(153, 253, 161); font-size: 15px;"><?php echo $row['mensaje']?> </td>
+            <td style="color: rgb(153, 253, 161); font-size: 20px;  width: 15%;"><?php echo $row['nombre']?> </td>
+            <td style="color: #B5FCFA ; font-size: 20px;"><?php echo $row['telefono']?> </td>
+            <td style="color: #FEC6D5; font-size: 20px;  width: 25%; "><?php echo $row['correo']?> </td>
+            <td style="color: #FAFCB5; font-size: 15px; width: 25%;"><?php echo $row['mensaje']?> </td>
 
             <td>
 
@@ -109,17 +131,58 @@
                 }
               </script>
 
-              <a onclick="return enviar()" href="cli_eliminar.php?id=<?php echo $row['DPI_CLIENTE']; ?>">
+              <a onclick="return enviar()" href="elimsj.php?id=<?php echo $row['nomensaje']; ?>">
               <img src="assets/images/eliminar1.ico" width="40px"></a>
             </td>
        </tr>
        <?php } ?>
-     </table> 
-     <br>
-
-     
+     </table>
+     <br> 
          </div>
+         <br>
 
+
+         <table width="100%">
+    <tr align="right">
+        <td width="30%">
+
+        </td>
+        <td width="52%">
+            
+        </td>
+        <td width="15%">
+        
+        <a href="cer_se.php">
+          <button type="button" class="btn btn-danger">Cerrar Sesion</button>
+        </a>
+        </td>
+        <td width="3%%">
+            
+        </td>
+    </tr>
+</table>
+<br>
+
+
+<div style="background-color: #0096FF; color: rgb(255, 255, 255);" align="center">
+        <div class="row">
+          <div class="col-6" width="50%" align="left" >
+            <h6 style="margin-left: 20px; margin-top: 8px;">
+              PBX:000000000000000000 - DIRECCION:000000000000
+            </h6>
+          </div>
+          <div class="col-3" width="25%" align="right">
+            <h6 style="margin-left: 20px; margin-top: 8px;">
+              CARNÉ:2020-40116
+            </h6>
+          </div>
+          <div class="col-3" width="25%" align="right">
+            <h6 style="margin-left: 20px; margin-top: 8px;">
+              NOMBRE: Carlos Vicente Reynoso Pú
+            </h6>
+          </div>
+        </div>
+      </div>
 
 
 
