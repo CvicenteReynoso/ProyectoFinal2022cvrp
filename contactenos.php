@@ -15,14 +15,14 @@
 
 
             <td width="25%">
-                <a href="bienvenida.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+                <a href="bienvenida.php" style="text-decoration: none; color: rgb(255, 255, 255);">
                     <div width="100%" height="100%" style="background-color: #5800FF;">
                       <h1>Inicio </h1>
                     </div>
                 </a>
                 </td>
           <td width="25%">
-          <a href="tiendas.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+          <a href="tiendas.php" style="text-decoration: none; color: rgb(255, 255, 255);">
               <div width="100%" height="100%" style="background-color: #5800FF;">
                 <h1>Tiendas </h1>
               </div>
@@ -36,7 +36,7 @@
             </a>
             </td>
             <td width="25%">
-              <a href="loginmsj.html" style="text-decoration: none; color: aliceblue;">
+              <a href="loginmsj.php" style="text-decoration: none; color: aliceblue;">
                   <div width="100%" height="100%" style="background-color: #00D7FF;">
                     <h1>Ver Mensaje</h1>
                   </div>

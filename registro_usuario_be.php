@@ -25,10 +25,6 @@ if(isset($_POST['enviar'])){
     }
 
 
-
-
-
-
 $resultado=mysqli_query($conn, $query);
 
 if ($resultado) {

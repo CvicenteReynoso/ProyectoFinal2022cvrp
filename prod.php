@@ -1,3 +1,22 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['usuar'])){
+
+
+  echo '<script lenguage="javascript">';
+    echo 'alert("¡ Porfavor primero debes iniciar sesion !")
+    window.location = "index.php";
+    </script>';
+  session_destroy();
+  die();
+}
+
+
+
+?>
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -15,14 +34,14 @@
 
 
           <td width="33.33%">
-          <a href="prod.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+          <a href="prod.php" style="text-decoration: none; color: rgb(255, 255, 255);">
               <div width="100%" height="100%" style="background-color: #5800FF;">
                 <h1>Productos / Servicios </h1>
               </div>
           </a>
           </td>
           <td width="33.33%">
-            <a href="tiendas.html" style="text-decoration: none; color: aliceblue;">
+            <a href="tiendas.php" style="text-decoration: none; color: aliceblue;">
                 <div width="100%" height="100%" style="background-color: #0096FF;">
                   <h1>Tiendas</h1>
                 </div>
@@ -573,6 +592,27 @@
 
 
       <br>
+
+      <table width="100%">
+    <tr align="right">
+        <td width="30%">
+
+        </td>
+        <td width="52%">
+            
+        </td>
+        <td width="15%">
+        
+        <a href="cer_se.php">
+          <button type="button" class="btn btn-danger">Cerrar Sesion</button>
+        </a>
+        </td>
+        <td width="3%%">
+            
+        </td>
+    </tr>
+</table>
+
       <br>
 
       <div style="background-color: #0096FF; color: rgb(255, 255, 255);" align="center">
