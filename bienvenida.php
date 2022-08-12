@@ -94,8 +94,9 @@ if(!isset($_SESSION['usuar'])){
               <figure>
               <img width="100%" height="100%" src="assets/img_bie/grx4.png" alt="">
               <div class="capa">
-                <h3>TECLADOS</h3>
-                <p>Ergonomicos, contra el agua etc.</p>
+                <h3>Galaxy S22 5G 256GB</h3>
+                <p>Lo mejor sucede después de que anochece. Captura la imagen con las épicas actualizaciones tecnológicas de nuestra cámara de nivel profesional. El sensor grande de píxeles amplía los píxeles para atraer la luz mientras que el cristal súper transparente reduce el resplandor de la lente, todo para que las fotos y los videos nocturnos salgan tan claros como el día.
+                  01Sensor de píxeles grandes</p>
               </div>
             </figure>
             </div>
