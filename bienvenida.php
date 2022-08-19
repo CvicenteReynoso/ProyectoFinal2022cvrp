@@ -93,7 +93,7 @@ if(!isset($_SESSION['usuar'])){
             <div class="col-6" >
               <figure>
               <img width="100%" height="100%" src="assets/img_bie/grx4.png" alt="">
-              <div class="capa">
+              <div class="capa capa1">
                 <h3>Galaxy S22 5G 256GB</h3>
                 <p>Lo mejor sucede después de que anochece. Captura la imagen con las épicas actualizaciones tecnológicas de nuestra cámara de nivel profesional. El sensor grande de píxeles amplía los píxeles para atraer la luz mientras que el cristal súper transparente reduce el resplandor de la lente, todo para que las fotos y los videos nocturnos salgan tan claros como el día.
                   01Sensor de píxeles grandes</p>
@@ -107,8 +107,10 @@ if(!isset($_SESSION['usuar'])){
                   <figure>
                   <img width="100%" height="100%" src="assets/img_bie/gr1.png" alt="">
                   <div class="capa">
-                    <h3>TECLADOS</h3>
-                    <p>Ergonomicos, contra el agua etc.</p>
+                    <h3>Galaxy Buds2</h3>
+                    <p>- Calidad de sonido que enriquece cada viaje de audio. <br>
+- Los dos micrófonos ayudan a bloquear el sonido no deseado. <br>
+- Los auriculares más livianos que hemos creado.</p>
                   </div>
                 </figure>
                 </div>
@@ -116,8 +118,10 @@ if(!isset($_SESSION['usuar'])){
                   <figure>
                   <img width="100%" height="100%" src="assets/img_bie/gr2.png" alt="">
                   <div class="capa">
-                    <h3>TECLADOS</h3>
-                    <p>Ergonomicos, contra el agua etc.</p>
+                    <h3>Galaxy Z Fold4</h3>
+                    <p>Desde adentro hacia afuera, el Galaxy Z Fold4 está
+                       hecho con materiales que no solo son impresionantes, sino que también
+                        resisten los golpes y los tropiezos de la vida.</p>
                   </div>
                   </figure>
                 </div>
@@ -126,10 +130,13 @@ if(!isset($_SESSION['usuar'])){
               <div class="row">
                 <div class="col-12">
                   <figure>
-                  <img width="100%" height="100%" src="assets/img_bie/grx2.png" alt="">
-                  <div class="capa">
-                    <h3>TECLADOS</h3>
-                    <p>Ergonomicos, contra el agua etc.</p>
+                  <img width="100%" height="100%" src="assets/img_bie/grx2.jpg" alt="">
+                  <div class="capa capa1">
+                    <h3>Neo QLED</h3>
+                    <p>Los detalles más finos con tecnología Quantum Matrix Technology
+                       Pro te permiten profundizar en la acción. El Neural Quantum Processor
+                        8K también utiliza la IA para aumentar el nivel de contraste
+</p>
                   </div>
                   </figure>
                 </div>

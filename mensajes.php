@@ -39,7 +39,7 @@ if(!isset($_SESSION['usuar'])){
   <div style="background-color: #0096FF; color: rgb(255, 255, 255);" align="center">
         <div class="row" >
           <div class="col-4" width="50%" align="center" style="background-color: #5800FF;">
-          <a href="prod.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+          <a href="bienvenida.php" style="text-decoration: none; color: rgb(255, 255, 255);">
           <div>
                 <h1>Inicio </h1>
               </div>
@@ -47,7 +47,7 @@ if(!isset($_SESSION['usuar'])){
           </div>
           <div class="col-4" width="25%" align="center" style="background-color: #0096FF;">
 
-          <a href="tiendas.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+          <a href="tiendas.php" style="text-decoration: none; color: rgb(255, 255, 255);">
           <div>
                 <h1> Tiendas </h1>
               </div>
@@ -112,9 +112,9 @@ if(!isset($_SESSION['usuar'])){
      while($row=mysqli_fetch_array($resultados)){ ?>
      
        <tr>
-            <td style="color: rgb(153, 253, 161); font-size: 20px;  width: 15%;"><?php echo $row['nombre']?> </td>
-            <td style="color: #B5FCFA ; font-size: 20px;"><?php echo $row['telefono']?> </td>
-            <td style="color: #FEC6D5; font-size: 20px;  width: 25%; "><?php echo $row['correo']?> </td>
+            <td style="color: rgb(153, 253, 161); font-size: 20px;  width: 30%;"><?php echo $row['nombre']?> </td>
+            <td style="color: #B5FCFA ; font-size: 20px; width: 10%;"><?php echo $row['telefono']?> </td>
+            <td style="color: #FEC6D5; font-size: 20px;  width: 30%; "><?php echo $row['correo']?> </td>
             <td style="color: #FAFCB5; font-size: 15px; width: 25%;"><?php echo $row['mensaje']?> </td>
 
             <td>
