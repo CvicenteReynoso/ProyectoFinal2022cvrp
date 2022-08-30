@@ -62,7 +62,7 @@ if(!isset($_SESSION['usuar'])){
 
           <td width="33.33%">
           <a href="prod.php" style="text-decoration: none; color: rgb(255, 255, 255);">
-              <div width="100%" height="100%" style="background-color: #5800FF;">
+              <div width="100%" height="100%" style="background-color: #D90000">
                 <h1>Productos / Servicios </h1>
               </div>
           </a>
