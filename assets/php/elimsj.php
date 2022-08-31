@@ -7,6 +7,6 @@ if(isset($_GET['id'])) {
     if (!$resul){
         die("Error al eliminar");
     }
-    header("location:mensajes.php");
+    header("location:../../mensajes.php");
 }
 ?>

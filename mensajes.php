@@ -106,7 +106,7 @@ if(!isset($_SESSION['usuar'])){
   </tr>
 
   <?php
-     include('bd.php');
+     include('assets/php/bd.php');
      $query="SELECT * FROM mensajes";
      $resultados=mysqli_query($conn, $query);
      while($row=mysqli_fetch_array($resultados)){ ?>
@@ -131,7 +131,7 @@ if(!isset($_SESSION['usuar'])){
                 }
               </script>
 
-              <a onclick="return enviar()" href="elimsj.php?id=<?php echo $row['nomensaje']; ?>">
+              <a onclick="return enviar()" href="assets/php/elimsj.php?id=<?php echo $row['nomensaje']; ?>">
               <img src="assets/images/eliminar1.ico" width="40px"></a>
             </td>
        </tr>
@@ -152,7 +152,7 @@ if(!isset($_SESSION['usuar'])){
         </td>
         <td width="15%">
         
-        <a href="cer_se.php">
+        <a href="assets/php/cer_se.php">
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>

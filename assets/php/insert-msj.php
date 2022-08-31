@@ -17,7 +17,7 @@ $resultado=mysqli_query($conn, $query);
 if ($resultado) {
     echo '<script lenguage="javascript">';
     echo 'alert("¡ Mensaje enviado exitosamente :) !")
-    window.location = "contactenos.php";
+    window.location = "../../contactenos.php";
     </script>';
     }
 }

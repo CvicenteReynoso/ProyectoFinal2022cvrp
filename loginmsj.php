@@ -64,7 +64,7 @@ if(!isset($_SESSION['usuar'])){
       <br>
       <br>
 
-      <form action="val-log-msj.php" method="post">
+      <form action="assets/php/val-log-msj.php" method="post">
       
         <div class="container">
           <label for="uname"><b>Usuario</b></label>
@@ -99,7 +99,7 @@ if(!isset($_SESSION['usuar'])){
         </td>
         <td width="15%">
         
-        <a href="cer_se.php">
+        <a href="assets/php/cer_se.php">
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>

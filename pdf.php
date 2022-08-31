@@ -34,7 +34,7 @@ function Footer()
     $this->Cell(0,10,utf8_decode('Página ').$this->PageNo(),0,0,'C');
 }
 }
-require 'bd.php';
+require 'assets/php/bd.php';
 $consulta="SELECT * FROM mensajes";
 $resultado=$conn->query($consulta); 
 $pdf = new PDF();

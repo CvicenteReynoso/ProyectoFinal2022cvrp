@@ -71,7 +71,7 @@ if(!isset($_SESSION['usuar'])){
       <br>
 
       <div class="container">
-        <form action="insert-msj.php" method="post">
+        <form action="assets/php/insert-msj.php" method="post">
           <label for="fname">Nombres</label>
           <input type="text" id="fname" name="nom" placeholder="Ingrese nombre completo">
       
@@ -103,7 +103,7 @@ if(!isset($_SESSION['usuar'])){
         </td>
         <td width="15%">
         
-        <a href="cer_se.php">
+        <a href="assets/php/cer_se.php">
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>
