@@ -28,7 +28,8 @@ if(!isset($_SESSION['usuar'])){
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-cont.css">
-    <title>Hello, world!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logomax.png">
+    <title>Contactenos</title>
   </head>
   <body>
     <table align="center" class="default" width="100%"  border="0" ><!--icono -->

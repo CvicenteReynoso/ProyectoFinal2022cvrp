@@ -30,7 +30,8 @@ if(!isset($_SESSION['usuar'])){
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style-tiendas.css">
-  <title>Hello, world!</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/logomax.png">
+  <title>Tiendas</title>
 </head>
 
 <body>
@@ -75,7 +76,7 @@ if(!isset($_SESSION['usuar'])){
         <br>
         <ul>
           <li>23666631</li>
-          <li><a href="mapas/gvp.html">centro comercial gran via pradera, 18 Calle 27-74, Cdad. de Guatemala</a></li>
+          <li><a href="assets/mapas/gvp.html">centro comercial gran via pradera, 18 Calle 27-74, Cdad. de Guatemala</a></li>
           <li>info@distelsa.com.gt</li>
           <li>lunes a sabado de 7:00 am a 6:00 pm</li>
         </ul>

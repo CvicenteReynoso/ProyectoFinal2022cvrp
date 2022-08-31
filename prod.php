@@ -28,6 +28,7 @@ if(!isset($_SESSION['usuar'])){
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/card.css">
   <link rel="stylesheet" href="assets/css/card-btn.css">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/logomax.png">
   <title>Productos y servicios</title>
 </head>
 
@@ -76,7 +77,28 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/1.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/1.png" alt="Denim Jeans" style="width:100%">
+              <div class="capa">
+                <h3>HUAWEI Buds</h3>
+                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+              </div>
+            </figure>
+          </div>
+          <h3>HUAWEI Buds</h3>
+          <p class="price">Q 999.99</p>
+          <p>
+            <a href="assets/pag_prod/prod1.html"><button>Mas Informacion</button></a>
+        </div>
+
+      </div>
+
+
+      <div class="col-3">
+
+        <div class="card">
+          <div class="contenedor" align="center">
+            <figure>
+              <img src="assets/pro-images/2.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -97,28 +119,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/2.png" alt="Denim Jeans" style="width:100%">
-              <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
-              </div>
-            </figure>
-          </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
-          <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
-        </div>
-
-      </div>
-
-
-      <div class="col-3">
-
-        <div class="card">
-          <div class="contenedor" align="center">
-            <figure>
-              <img src="pro-images/3.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/3.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -140,7 +141,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/4.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/4.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -185,7 +186,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/5.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/5.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -206,7 +207,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/6.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/6.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -227,7 +228,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/7.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/7.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -249,7 +250,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/8.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/8.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -287,7 +288,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/9.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/9.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -308,7 +309,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/10.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/10.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -329,7 +330,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/11.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/11.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
@@ -351,7 +352,7 @@ if(!isset($_SESSION['usuar'])){
         <div class="card">
           <div class="contenedor" align="center">
             <figure>
-              <img src="pro-images/12.png" alt="Denim Jeans" style="width:100%">
+              <img src="assets/pro-images/12.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
                 <h3>HUAWEI Buds</h3>
                 <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
