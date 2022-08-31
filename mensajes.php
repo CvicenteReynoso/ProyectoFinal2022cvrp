@@ -21,7 +21,7 @@ if(!isset($_SESSION['usuar'])){
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,24 +39,24 @@ if(!isset($_SESSION['usuar'])){
 
   <div style="background-color: #0096FF; color: rgb(255, 255, 255);" align="center">
         <div class="row" >
-          <div class="col-4" width="50%" align="center" style="background-color: #5800FF;">
+          <div class="col-4 link"  align="center" >
           <a href="bienvenida.php" style="text-decoration: none; color: rgb(255, 255, 255);">
           <div>
                 <h1>Inicio </h1>
               </div>
           </a>
           </div>
-          <div class="col-4" width="25%" align="center" style="background-color: #0096FF;">
+          <div class="col-4 link" align="center" >
 
           <a href="tiendas.php" style="text-decoration: none; color: rgb(255, 255, 255);">
           <div>
                 <h1> Tiendas </h1>
-              </div>
+          </div>
           </a>
 
 
           </div>
-          <div class="col-4" width="25%" align="center" style="background-color: #00D7FF;">
+          <div class="col-4 link" align="center" >
 
 
           <a href="contactenos.php" style="text-decoration: none; color: rgb(255, 255, 255);">
@@ -157,7 +157,7 @@ if(!isset($_SESSION['usuar'])){
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>
-        <td width="3%%">
+        <td width="3%">
             
         </td>
     </tr>

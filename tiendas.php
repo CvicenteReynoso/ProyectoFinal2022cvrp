@@ -20,7 +20,7 @@ if(!isset($_SESSION['usuar'])){
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -76,9 +76,142 @@ if(!isset($_SESSION['usuar'])){
         <br>
         <ul>
           <li>23666631</li>
-          <li><a href="assets/mapas/gvp.html">centro comercial gran via pradera, 18 Calle 27-74, Cdad. de Guatemala</a></li>
+          <li><a href="assets/mapas/gvp.php">centro comercial gran via pradera <br> 18 Calle 27-74, Cdad. de Guatemala</a></li>
           <li>info@distelsa.com.gt</li>
           <li>lunes a sabado de 7:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/3.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Galerias la Pradera</h1>
+        <br>
+        <ul>
+          <li>23634420</li>
+          <li><a href="assets/mapas/glp.php">20 calle 26, Cdad. de Guatemala</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 10:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/2.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Decima Plaza</h1>
+        <br>
+        <ul>
+          <li>24230000</li>
+          <li><a href="assets/mapas/dc.php">CC Décima Plaza <br> 10 Avenida 8, 68, Cdad. de Guatemala</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 8:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/4.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Americas</h1>
+        <br>
+        <ul>
+          <li>23670627</li>
+          <li><a href="assets/mapas/am.php">Centro Comercial Parque Las 6-69,, Las Américas <br> Benemérito de las Américas</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 9:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/5.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>La Estacion</h1>
+        <br>
+        <ul>
+          <li>54820218</li>
+          <li><a href="assets/mapas/la.php">16 Calle 617, Cdad. de Guatemala<br> Benemérito de las Américas</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 10:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/6.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Distelsa</h1>
+        <br>
+        <ul>
+          <li>23366950</li>
+          <li><a href="assets/mapas/dis.php">Diagonal 6, 13-01, Centro Comercial Oakland Mall <br> Planta Baja, Local, 132</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 10:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/7.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Zona 9</h1>
+        <br>
+        <ul>
+          <li>24230000</li>
+          <li><a href="assets/mapas/z9.php">7A Avenida 12-72, Cdad. de Guatemala</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 10:00 am a 6:00 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-6">
+        <img src="assets/imgtd/8.png" alt="">
+      </div>
+      <div class="col-6 texto">
+        <h1>Miraflores</h1>
+        <br>
+        <ul>
+          <li>24748318</li>
+          <li><a href="assets/mapas/mira.php">Cdad. de Guatemala</a></li>
+          <li>info@distelsa.com.gt</li>
+          <li>lunes a sabado de 10:00 am a 6:00 pm</li>
         </ul>
       </div>
     </div>
@@ -137,7 +270,7 @@ if(!isset($_SESSION['usuar'])){
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
       </td>
-      <td width="3%%">
+      <td width="3%">
 
       </td>
     </tr>

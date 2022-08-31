@@ -20,7 +20,7 @@ if(!isset($_SESSION['usuar'])){
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -104,7 +104,7 @@ if(!isset($_SESSION['usuar'])){
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>
-        <td width="3%%">
+        <td width="3%">
             
         </td>
     </tr>

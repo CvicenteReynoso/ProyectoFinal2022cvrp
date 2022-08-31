@@ -87,7 +87,7 @@ if(!isset($_SESSION['usuar'])){
           <h3>HUAWEI Buds</h3>
           <p class="price">Q 999.99</p>
           <p>
-            <a href="assets/pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod1.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -395,7 +395,7 @@ if(!isset($_SESSION['usuar'])){
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
       </td>
-      <td width="3%%">
+      <td width="3%">
 
       </td>
     </tr>

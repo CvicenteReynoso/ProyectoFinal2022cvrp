@@ -63,7 +63,7 @@ if(!isset($_SESSION['usuar'])){
 
           <td width="33.33%">
           <a href="prod.php" style="text-decoration: none; color: rgb(255, 255, 255);">
-              <div width="100%" height="100%" style="background-color: #D90000">
+              <div width="100%" height="100%" style="background-color: #006ec3">
                 <h1>Productos / Servicios </h1>
               </div>
           </a>
@@ -121,7 +121,7 @@ if(!isset($_SESSION['usuar'])){
                   <div class="capa">
                     <h3>Galaxy Z Fold4</h3>
                     <p>Desde adentro hacia afuera, el Galaxy Z Fold4 está
-                       hecho con materiales que no solo son impresionantes, sino que también
+                        hecho con materiales que no solo son impresionantes, sino que también
                         resisten los golpes y los tropiezos de la vida.</p>
                   </div>
                   </figure>
@@ -167,7 +167,7 @@ if(!isset($_SESSION['usuar'])){
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>
-        <td width="3%%">
+        <td width="3%">
             
         </td>
     </tr>
