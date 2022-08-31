@@ -42,14 +42,14 @@ if(isset($_SESSION['usuar'])){
             </div>
         </div>
         <div class="contenedor__login-register">
-            <form action="val_usu_log.php" method="post" class="formulario__login">
+            <form action="assets/php/val_usu_log.php" method="post" class="formulario__login">
                 <h2>Iniciar Sesion</h2>
                 <input type="text"  placeholder="Usuario" id="" name="usuario">
                 <input type="password"  placeholder="Contraseña" id="" name="contra">
                 <button>Entrar</button>
             </form>
 
-            <form action="registro_usuario_be.php" method="post" class="formulario__register">
+            <form action="assets/php/registro_usuario_be.php" method="post" class="formulario__register">
                 <h2>Registrarse</h2>
                 <input type="text"  placeholder="Nombre" name="nom">
                 <input type="text"  placeholder="Apellido" name="ape">

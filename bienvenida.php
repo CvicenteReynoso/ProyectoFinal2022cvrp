@@ -134,7 +134,7 @@ if(!isset($_SESSION['usuar'])){
                   <div class="capa capa1">
                     <h3>Neo QLED</h3>
                     <p>Los detalles más finos con tecnología Quantum Matrix Technology
-                       Pro te permiten profundizar en la acción. El Neural Quantum Processor
+                        Pro te permiten profundizar en la acción. El Neural Quantum Processor
                         8K también utiliza la IA para aumentar el nivel de contraste
 </p>
                   </div>
@@ -162,7 +162,7 @@ if(!isset($_SESSION['usuar'])){
         </td>
         <td width="15%">
         
-        <a href="cer_se.php">
+        <a href="assets/php/cer_se.php">
           <button type="button" class="btn btn-danger">Cerrar Sesion</button>
         </a>
         </td>

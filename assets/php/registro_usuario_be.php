@@ -17,7 +17,7 @@ if(isset($_POST['enviar'])){
     if(mysqli_num_rows($veri_cor) > 0){
         echo '<script lenguage="javascript">';
     echo 'alert("¡ este usuario ya esta registrado,intenta con otro :) !")
-    window.location = "index.php";
+    window.location = "../../index.php";
     </script>';
 
     exit();
@@ -30,7 +30,7 @@ $resultado=mysqli_query($conn, $query);
 if ($resultado) {
     echo '<script lenguage="javascript">';
     echo 'alert("¡ Te has registrado exitosamente :) !")
-    window.location = "bienvenida.php";
+    window.location = "../../bienvenida.php";
     </script>';
     }
 }

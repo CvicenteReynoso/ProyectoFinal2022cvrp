@@ -12,12 +12,12 @@ $val_log = mysqli_query ($conn, "SELECT * FROM usuario WHERE usuario='$usua' and
 
 if (mysqli_num_rows($val_log) > 0) {
     $_SESSION['usuar'] = $usua;
-    header("location: bienvenida.php");
+    header("location: ../../bienvenida.php");
     exit();
 }else {
     echo '<script lenguage="javascript">';
     echo 'alert("¡ usuario y/o contraseña incorrectos verifique sus datos :( !")
-    window.location = "index.php";
+    window.location = "../../index.php";
     </script>';
     exit();
 }
