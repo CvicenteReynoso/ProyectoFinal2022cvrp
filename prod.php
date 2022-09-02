@@ -100,15 +100,18 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/2.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>HUA FreeBuds</h3>
+                <p>Conexión Bluetooth 5.2.
+Música con ricos detalles y bajo profundo.
+Excelente reducción de ruido.
+</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>HUA FreeBuds</h3>
+          <p class="price">Q 2,000.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod2.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -121,15 +124,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/3.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Laptop Huawei</h3>
+                <p>procesador Core i3, RAM 8GB, Almacenamiento 256GB SSD, pantalla 14"</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Laptop Huawei</h3>
+          <p class="price">Q 8,600.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod3.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -143,15 +146,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/4.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Samsung AKG</h3>
+                <p>Audífonos Samsung In-Ear AKG EOIC100 alámbricos con micrófono</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
+          <h3>Samsung AKG</h3>
           <p class="price">Q 999.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod4.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -188,15 +191,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/5.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Samsung QLED</h3>
+                <p>Graficos de ultima generacion de alta calidad y la mejor resolucion del mercado</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Samsung QLED</h3>
+          <p class="price">Q 7,000.00</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod5.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -209,15 +212,16 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/6.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>LG SMART UHD</h3>
+                <p>Pantalla con comodidad ocular y OLED ecológico
+Diseño OLED, Cine OLED, Juegos OLED, Deportes OLED</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
+          <h3>LG SMART UHD</h3>
           <p class="price">Q 999.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod6.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -230,15 +234,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/7.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Google Chromecast</h3>
+                <p>Transmite contenido fácilmente desde un dispositivo a la TV.</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Google Chro...</h3>
+          <p class="price">Q 300.00</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod7.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -252,15 +256,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/8.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Huawei Watch 3</h3>
+                <p>Con acabado circular y la pantalla redondeada ofrecen un aspecto clásico</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Huawei Watch 3</h3>
+          <p class="price">Q 2,449.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod8.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -290,15 +294,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/9.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Apple iPad Air</h3>
+                <p>Aprovecha al máximo las herramientas que nos brinda el iPad Air de 4ta. Gen</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Apple iPad Air</h3>
+          <p class="price">Q 6,449.00</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod9.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -311,15 +315,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/10.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Laptop Dell</h3>
+                <p>procesador Corei7 memoria RAM 12GB almacenamiento 512GB estado solido pantalla 15.6"</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Laptop Dell</h3>
+          <p class="price">Q 10,999.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod10.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -332,15 +336,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/11.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>Vinera Whirlpool</h3>
+                <p>Vinera para 21 botellas, acero, Whirlpool, WW2110S</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>Vinera Whirlpool</h3>
+          <p class="price">Q 2,699.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod11.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>
@@ -354,15 +358,15 @@ if(!isset($_SESSION['usuar'])){
             <figure>
               <img src="assets/pro-images/12.png" alt="Denim Jeans" style="width:100%">
               <div class="capa">
-                <h3>HUAWEI Buds</h3>
-                <p>Sonido en Alta Resolución, Ultra Ligeros, Cómodos y con Cancelación Activa de Ruido, Open-Fit 2.0</p>
+                <h3>FreeBuds Pro</h3>
+                <p>In-Ear Inalámbricos con Cancelación Activa de Ruido (Carbon Black)</p>
               </div>
             </figure>
           </div>
-          <h3>HUAWEI Buds</h3>
-          <p class="price">Q 999.99</p>
+          <h3>FreeBuds Pro</h3>
+          <p class="price">Q 1,249.99</p>
           <p>
-            <a href="pag_prod/prod1.html"><button>Mas Informacion</button></a>
+            <a href="assets/pag_prod/prod12.php"><button>Mas Informacion</button></a>
         </div>
 
       </div>

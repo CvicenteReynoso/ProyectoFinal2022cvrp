@@ -79,7 +79,7 @@ if(!isset($_SESSION['usuar'])){
           <label for="lname">Telefono / Celular</label>
           <input type="text" id="lname" name="tel" placeholder="Ingrese Telefono / Celular">
 
-          <label for="lname">Correo ELectronico</label>
+          <label for="lname">Correo Electronico</label>
           <input type="text" id="lname" name="ema" placeholder="Ingrese correo ELectronico">
       
           
