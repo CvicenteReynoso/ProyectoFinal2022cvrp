@@ -155,11 +155,13 @@ if(!isset($_SESSION['usuar'])){
 
       <table width="100%">
     <tr align="right">
-        <td width="30%">
+        <td width="67%">
 
         </td>
-        <td width="52%">
-            
+        <td width="15%">
+        <a href="assets/reporte_mineduc.pdf">
+          <button type="button" class="btn btn-danger">Reporte Mineduc</button>
+        </a>
         </td>
         <td width="15%">
         
